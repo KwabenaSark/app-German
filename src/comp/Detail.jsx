@@ -44,7 +44,7 @@ const Detail = ({ product }) => {
           name: product.name,
           quantity,
           price: product.price,
-          image: product?.image?.desktop?.replace('./assets', 'src/assets') || '', // handle optional chaining
+          image: product?.image?.desktop?.replace('./assets', '/assets') || '', // handle optional chaining
         });
       }
     
@@ -67,7 +67,7 @@ const Detail = ({ product }) => {
   <Grid size={{ xs: 12, md: 6 }}>
   <Box
           component="img"
-          src={product?.image?.desktop?.replace('./assets', 'src/assets')}
+          src={product?.image?.desktop?.replace('./assets', '/assets')}
           alt={product.name}
           sx={{ width: '100%', borderRadius: 2 }}
         />
@@ -176,13 +176,13 @@ const Detail = ({ product }) => {
         <Stack spacing={6}>
           <Box
             component="img"
-            src={product.gallery.first.desktop.replace('./assets', 'src/assets')}
+            src={product.gallery.first.desktop.replace('./assets', '/assets')}
             alt="Gallery 1"
             sx={{ width: '100%', borderRadius: 2 ,objectFit: 'cover'}}
           />
           <Box
             component="img"
-            src={product.gallery.second.desktop.replace('./assets', 'src/assets')}
+            src={product.gallery.second.desktop.replace('./assets', '/assets')}
             alt="Gallery 2"
             sx={{ width: '100%', borderRadius: 2,objectFit: 'cover' }}
           />
@@ -191,7 +191,7 @@ const Detail = ({ product }) => {
       <Grid item xs={6} md={4} sm={4} >
         <Box
           component="img"
-          src={product.gallery.third.desktop.replace('./assets', 'src/assets')}
+          src={product.gallery.third.desktop.replace('./assets', '/assets')}
           alt="Gallery 3"
           sx={{ width: '100%', borderRadius: 2, objectFit: 'cover' }}
         />
@@ -213,7 +213,7 @@ const Detail = ({ product }) => {
       >
         <Box
           component="img"
-          src={item.image.desktop.replace('./assets', 'src/assets')}
+          src={item.image.desktop.replace('./assets', '/assets')}
           alt={item.name}
           sx={{
             width: '100%',

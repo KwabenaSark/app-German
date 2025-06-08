@@ -72,7 +72,7 @@ const Footer = () => {
   <Grid  size={{  sm: 6, xs: 12, md: 6 }}>
   <Box
   component="img"
-  src="src/assets/shared/desktop/image-best-gear.jpg" // replace with your actual path
+  src="/assets/shared/desktop/image-best-gear.jpg" // replace with your actual path
   sx={{
     width: '100%',        // Makes it responsive inside its grid cell
     height: 'auto',       // Maintains aspect ratio

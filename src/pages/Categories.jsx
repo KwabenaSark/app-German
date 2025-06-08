@@ -70,7 +70,7 @@ const Headphones = () => {
     <Grid item size={{ xs: 12, sm: 12, md: 6 }}  >
       <Box
         component="img"
-        src={product?.image?.desktop?.replace('./assets', 'src/assets')}
+        src={product?.image?.desktop?.replace('./assets', '/assets')}
         alt={product.name}
         sx={{ width: '100%', borderRadius: 2 }}
       />
