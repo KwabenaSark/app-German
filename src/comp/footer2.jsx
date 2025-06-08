@@ -6,7 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import logo from '/src/assets/shared/desktop/logo.svg';
+import logo from '/assets/shared/desktop/logo.svg';
 
 
 
@@ -67,7 +67,7 @@ const Footer2 = () => {
     {/* Headphone Image */}
     <Box
       component="img"
-      src="/src/assets/shared/desktop/image-category-thumbnail-headphones.png" // replace with your actual path
+      src="/assets/shared/desktop/image-category-thumbnail-headphones.png" // replace with your actual path
       alt="Headphones"
       sx={{
         height: 180,
@@ -119,7 +119,7 @@ const Footer2 = () => {
     {/* Headphone Image */}
     <Box
       component="img"
-      src="/src/assets/shared/desktop/image-category-thumbnail-speakers.png" // replace with your actual path
+      src="/assets/shared/desktop/image-category-thumbnail-speakers.png" // replace with your actual path
       alt="Headphones"
       sx={{
         height: 180,

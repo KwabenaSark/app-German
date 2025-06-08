@@ -20,7 +20,7 @@ import CartModal from './CartModal';
 import { useCart } from './ CartContext'; 
 
 
-import logo from '/src/assets/shared/desktop/logo.svg';
+import logo from '/assets/shared/desktop/logo.svg';
 
 const Nav = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);

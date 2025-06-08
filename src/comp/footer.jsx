@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import logo from '/src/assets/shared/desktop/logo.svg';
+import logo from '/assets/shared/desktop/logo.svg';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: '#000', 

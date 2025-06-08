@@ -49,14 +49,14 @@ const Home = () => {
     }
     
     // Dynamically generate image URL
-    const imageUrl = `/src/assets/home/${deviceFolder}/image-header.jpg`;
+    const imageUrl = `/assets/home/${deviceFolder}/image-header.jpg`;
     const backgroundSize = 'cover';
 
-    const img1=`/src/assets/home/${deviceFolder}/image-speaker-zx9.png`
+    const img1=`/assets/home/${deviceFolder}/image-speaker-zx9.png`
      const img2=`src/assets/home/${deviceFolder}/image-speaker-zx7.jpg`
-       const img3=`/src/assets/home/desktop/pattern-circles.svg`
+       const img3=`/assets/home/desktop/pattern-circles.svg`
     
- const img4=`/src/assets/home/${deviceFolder}/image-earphones-yx1.jpg`
+ const img4=`/assets/home/${deviceFolder}/image-earphones-yx1.jpg`
   return (
     <div>
       <Grid container spacing={2}>
@@ -137,7 +137,7 @@ const Home = () => {
       {/* Headphone Image */}
       <Box
         component="img"
-        src="/src/assets/shared/desktop/image-category-thumbnail-headphones.png" 
+        src="/assets/shared/desktop/image-category-thumbnail-headphones.png" 
         alt="Headphones"
         sx={{
           height: 180,
@@ -189,7 +189,7 @@ const Home = () => {
       {/* Headphone Image */}
       <Box
         component="img"
-        src="/src/assets/shared/desktop/image-category-thumbnail-speakers.png" // replace with your actual path
+        src="/assets/shared/desktop/image-category-thumbnail-speakers.png" // replace with your actual path
         alt="Headphones"
         sx={{
           height: 180,
